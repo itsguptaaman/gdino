@@ -44,27 +44,33 @@ Use Cases
 - mongodb (You can use cloud)
 - GPU server or Local (Needs a specific requirement to run on a local gpu like torch and nvidia toolkit Visual Studio and etc)
 
-## 1. clone the repo
+#### 1. clone the repo
 ```
 git clone --recurse-submodules https://github.com/itsguptaaman/gdino.git
 
 ```
 
 
-## 2. Go inside GroundingDINO folder and run command and install the dependency's
+#### 2. Go inside GroundingDINO folder and run command and install the dependency's
 ```
 cd \GroundingDINO
 pip install -e .
 cd ..
 pip install requirements.txt
 ```
-## 3. Start the rabibtmq worker and streamlit server
+#### 3. Start the rabbitmq worker and streamlit server
 ```
 bash scripts/start_worker.sh 
 ```
 ```
 streamlit run app.py
 ```
-## Contributing
+
+### Sample Output
+![sample](https://github.com/itsguptaaman/gdino/assets/88229259/20a4460f-a0cd-4d64-8b64-dc8614a8596e)
+
+
+
+#### Contributing
 - Contributions are welcome! Please fork this repository and submit a pull request with your enhancements.
 
