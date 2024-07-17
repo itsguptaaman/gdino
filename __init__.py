@@ -9,3 +9,6 @@ load_dotenv(os.path.join(ROOT_PATH, '.env'))
 WEIGHTS_NAME = "groundingdino_swint_ogc.pth"
 WEIGHTS_PATH = os.path.join(ROOT_PATH, "weights", WEIGHTS_NAME)
 CONFIG_PATH = os.path.join(ROOT_PATH, "GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py")
+
+IMAGES_PATH = os.path.join(ROOT_PATH, 'images')
+os.makedirs(IMAGES_PATH, exist_ok=True)
